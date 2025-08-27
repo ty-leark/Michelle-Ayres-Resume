@@ -317,7 +317,12 @@
 }
 
 .main__img--container {
-    text-align: center;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
 }
 
 .main__img--card {
@@ -329,17 +334,22 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(
-        to right,
-        #359598 0%,
-        #e1c17c 100%);
 }
 
 .fa-solid, .fa-circle-user {
     font-size: 14rem;
+    justify-content: center;
+    flex-direction: flex;
+    text-align: center;
 }
 
 #card-2 {
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    display: flex;
     background: #833ab4;
     background: -webkit-linear-gradient(
         to left,
@@ -368,6 +378,7 @@
     .main__img--container {
         display: flex;
         justify-content: center;
+        margin-left: 85px;
     }
 
     .main__img--card {
